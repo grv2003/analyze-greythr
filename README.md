@@ -35,16 +35,28 @@ Go to data imports, click on `Custom Data Source` and copy and paste in:
 ```yaml
 extractors:
   - name: tap-greythr
+    variant: 0.0.1
     namespace: tap_greythr
     pip_url: git+https://github.com/grv2003/tap-greythr.git
+    executable: tap-greythr
     capabilities:
-      - state
-      - discover
       - catalog
+      - discover
+      - state
     settings:
-      - name: example_setting_one
-        kind: password
-      - name: example_setting_two
+      - name: api_username
+        kind: string
+      - name: api_password
+        kind: string
+      - name: greythr_domain
+        kind: string
+      - name: year
+        kind: string
+      - name: start
+        kind: string
+      - name: end
+        kind: string
+
 files:
   - name: analyze-greythr
     namespace: tap_greythr

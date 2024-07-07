@@ -60,6 +60,7 @@ extractors:
 files:
   - name: analyze-greythr
     namespace: tap_greythr
+    variant: 0.0.1
     update:
       analyze/datasets/tap-greythr: true
     pip_url: git+https://github.com/grv2003/analyze-greythr.git

@@ -1,6 +1,6 @@
 version: datasets/v0.2
-source: tap-trello
-title: Export - Aged Active Cards
+source: tap-greythr
+title: Export - Attendance Insights
 questions: What are the oldest untouched trello cards in my boards?
 description: |-
   An export of all active Trello cards, showing the cards with the oldest last activity fist.

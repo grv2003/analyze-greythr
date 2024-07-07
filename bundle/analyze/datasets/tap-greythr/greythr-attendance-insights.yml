@@ -1,0 +1,27 @@
+version: datasets/v0.2
+source: tap-greythr
+title: Attendance Insights
+questions: Attendance Insights
+description: |-
+  Attendance Insights
+
+  #greythr
+metadata: |-
+  {
+    "name": "attendance_insights",
+    "label": "Attendance Insights", 
+    "related_table": {
+      "columns": [
+        {"name": "employee", "label": "employee", "description": "employee""}, 
+        {"name": "avaerage_actual_work_hours", "label": "avaerage_actual_work_hours", "description": "avaerage_actual_work_hours"}
+      ]
+    }
+  }
+visualisation: '{"html-table": {}}'
+query: |-
+  SELECT
+    full_name "attendance_insights.employee"
+    , username "attendance_insights.avaerage_actual_work_hours"
+  FROM attendance_insights
+  ORDER BY "attendance_insights.board_name"
+  LIMIT 50

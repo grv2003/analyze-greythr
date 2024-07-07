@@ -1,0 +1,6 @@
+trello-total-cards-in-each-board: |-
+  [{"trello_cards.board_name": "Research", "trello_cards.total_cards": 112},
+  {"trello_cards.board_name": "Testing", "trello_cards.total_cards": 55},
+  {"trello_cards.board_name": "Deployment", "trello_cards.total_cards": 39},
+  {"trello_cards.board_name": "Brainstorming", "trello_cards.total_cards": 38},
+  {"trello_cards.board_name": "Docs", "trello_cards.total_cards": 17}]

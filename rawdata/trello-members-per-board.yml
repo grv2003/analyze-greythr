@@ -1,0 +1,5 @@
+trello-members-per-board: |-
+  [{"trello_members.board_name": "Testing Board", "trello_members.total_members": 12},
+  {"trello_members.board_name": "App Board", "trello_members.total_members": 9},
+  {"trello_members.board_name": "API Board", "trello_members.total_members": 8},
+  {"trello_members.board_name": "External Board", "trello_members.total_members": 6}]

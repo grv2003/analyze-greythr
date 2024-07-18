@@ -23,5 +23,5 @@ query: |-
     employee "attendance_insights.employee"
     , average_actual_work_hours "attendance_insights.average_actual_work_hours"
   FROM attendance_insights
-  ORDER BY "attendance_insights.board_name"
+  ORDER BY "attendance_insights.average_actual_work_hours" DESC
   LIMIT 50

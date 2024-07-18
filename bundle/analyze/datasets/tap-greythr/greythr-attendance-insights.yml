@@ -12,7 +12,7 @@ metadata: |-
     "label": "Attendance Insights", 
     "related_table": {
       "columns": [
-        {"name": "employee", "label": "employee", "description": "employee""}, 
+        {"name": "employee", "label": "employee", "description": "employee"}, 
         {"name": "avaerage_actual_work_hours", "label": "avaerage_actual_work_hours", "description": "avaerage_actual_work_hours"}
       ]
     }
